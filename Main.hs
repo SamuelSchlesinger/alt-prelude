@@ -2,7 +2,7 @@
 
 module Main where
 
-import Algebra
+import Alt
 
 main = do
-  print (4 :: Z `Mod` 3)
+  print (5 + 6 :: Integer `Mod` 4)
